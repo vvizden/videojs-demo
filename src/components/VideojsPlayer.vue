@@ -26,8 +26,9 @@ export default {
     };
   },
   mounted() {
+    let that = this;
     this.player = videojs(this.$refs.videojsPlayer, this.options, function() {
-      this.$emit("playerReady", this);
+      that.$emit("playerReady", this);
     });
   },
   beforeDestroy() {

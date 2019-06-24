@@ -28,7 +28,6 @@ export default {
         muted: true,
         fluid: true,
         controlBar: {
-          liveDisplay: true,
           volumePanel: {
             inline: false
           }
@@ -52,7 +51,7 @@ export default {
         sources: [
           {
             // src: "rtmp://222.143.52.111:19975/live/000041010035_1_1",
-            src: "rtmp://222.143.52.111:19975/live/000041010003_1_1",
+            src: "rtmp://222.143.52.111:19975/live/000041010016_1_1",
             type: "rtmp"
           }
         ]
